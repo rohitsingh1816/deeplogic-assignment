@@ -1,11 +1,19 @@
-<h1>Time News</h1>
-<p>Time is a news webpage that helps to read the latest and current news.</p>
-<h4>Features:</h4>
-<ul>
-  <li>Used Json with 8080 port to get the datas.</li>
-  <li>Data parse from time.com website using Parsehub.</li>
-  <li>Responsive Landing page to read the Latest News.</li>
-</ul>
+# Node.Js Assignment by Deep LogicTech 
+
+## Extract the latest stories from www.time.com website and display in json format to user 
+
+**Requirements: Node.js**
+
+## Instructions to run the application/service:
+
+1. Clone a copy of directory to your local machine
+2. Open the directory in command line.
+3. Type **node server.js [port number]** (you can leave the port number blank, default starts at port 8080), and click enter.
+4. Visit http://localhost:[port number]/getTimeStories on REST API client such as Postman or in the browser e.g. http://localhost:8080/getTimeStories
+
+
+**No external libraries used , regex used for parsing/processing the HTML string**
+
 
 <h3 align="left">Tech Stacks:</h3>
 <p align="left">
